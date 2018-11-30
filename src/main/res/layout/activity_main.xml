@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/texto"
+        android:layout_width="238dp"
+        android:layout_height="48dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/leermemint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+        android:text="Memoria interna" />
+
+    <Button
+        android:id="@+id/escribirmemint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/leersd"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-166dp"
+        android:text="Escribir memoria interna" />
+
+    <Button
+        android:id="@+id/leersd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="178dp"
+        android:text="Leer SD"
+
+        />
+
+    <Button
+        android:id="@+id/escribirsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Escribir SD" />
+
+</RelativeLayout>
